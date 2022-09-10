@@ -15,7 +15,6 @@ class Road{
         const topRight={x:this.right,y:this.top};
         const bottomLeft={x:this.left,y:this.bottom};
         const bottomRight={x:this.right,y:this.bottom};
-        
         this.borders=[
             [topLeft,bottomLeft],
             [topRight,bottomRight]
